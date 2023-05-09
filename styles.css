@@ -1,0 +1,399 @@
+body {
+    background-color: #F6EBDD;
+    font-family: "Sintony", sans-serif;
+}
+
+/* COLOR Start */
+
+#B100 {
+    color: #F6EBDD;
+}
+
+#B150 {
+    color: #E4D9CE;
+}
+
+#O100 {
+    color: #F6CAAC;
+}
+
+#O200 {
+    color: #E9BA9F;
+}
+
+#B300 {
+    color: #764000;
+}
+
+#G100 {
+    color: #D9D9D9;
+}
+
+/* COLOR End */
+
+/* DIV BOX Color Start */
+.BoxCategory_1{
+    background-color: #F6EBDD;
+    width:200px;
+    height: 100px;
+    display: flex;
+    box-sizing: border-box;
+    margin: 10px;
+    font-size: 90px;;
+    text-align: center;
+}
+
+.button {
+    background-color: #cfc9bf;
+    border: none;
+    color: #764000;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    border-radius: 16px;
+    margin-left: 100px; /*Adjust the button between the space*/
+  }
+
+.button-selected {
+    background-color: #e8bba4;
+    border: none;
+    color: #764000;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    border-radius: 16px;
+    margin-left: 100px; /*Adjust the button between the space*/
+  }
+
+.word-selected{
+    background-color: #e8bba4;
+}
+
+
+#projecthead {
+    width: 300px;
+    padding-left: 60px;
+    padding-bottom: 100px;
+}
+
+#catPaw{
+    width: 50px;
+    margin-left: 155px;
+    padding-bottom: 5px;
+}
+
+
+#nextPage{
+    width: 30px;
+    position:absolute;
+    padding-top: 10px;
+    right: 25px;
+}
+
+#previousPage{
+    width: 30px;
+    position:absolute;
+    padding-top: 20px;
+    left: 20px;
+}
+
+
+#projectPic1{
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+}
+
+#projectPic1P1{
+    width: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+}
+
+#projectPic1P2{
+    width: 500px;
+    display: flex;
+    margin-left: 10%;
+    padding-bottom: 30px;
+    padding-right: 30px;
+}
+
+#projectPic1P3{
+    width: 500px;
+    display: flex;
+    /* padding-left: 80px; */
+    margin: auto;
+    padding-bottom: 30px;
+    margin-right: 100px;
+
+}
+
+#projectPic1P4{
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+}
+
+#wordWrap{
+    width: 50%;
+    display: flex;
+    vertical-align: middle;
+    margin: auto;
+}
+
+#wordWrap-child2{
+    width: 50%;
+    text-align: left;
+}
+
+#wordWrap-child1{
+    width: 50%;
+    text-align: right;
+}
+
+#ratebar{
+    width: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+}
+
+#footer{
+    background-color: #d8d8d8;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 0px;
+}
+
+#charTitle{
+    width: 300px;
+    margin-left: 250px;
+    margin-bottom: 50px;
+}
+
+#charTitle-rev{
+    width: 300px;
+    margin-right: 250px;
+    margin-bottom: 50px;
+}
+
+#char-wrap{
+    padding-top: 50px;
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    margin-bottom: 180px;
+    width: 100%;
+}
+
+#charPic{
+    width: 500px;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+#charPic-rev{
+    width: 500px;
+    margin-right: 150px;
+    margin-left: 50px;
+}
+
+#charText{
+    font-size: 40px;
+    background-color: #C9BEB869; 
+    text-align: center;
+    color: #764000;
+    border-radius: 80px;
+    padding: 30px ;
+    width: 43%;
+}
+
+#contact-text{
+    font-size: 40px;
+    background-color: #C9BEB869;
+    width: 30%;
+    margin: auto;
+    padding: 30px;
+    border-radius: 80px;
+    text-align: center;
+    color: #764000;
+}
+
+#contact-panel{
+    padding-top: 100px;
+    width: 50%;
+    display: flex;
+    vertical-align: middle;
+    margin: auto;
+}
+
+#contactLogo{
+    width: 80px;
+    padding-right: 40px;
+}
+
+#contactWord{
+    border: 1px solid #000000;
+    border-radius: 50px;
+    background-color: #f5f1ee;
+    width: 50%;
+    text-align: left;
+    top: 50%;
+    padding: 1px 0;
+    padding-left: 100px;
+    padding-right: 50%;
+    color:#764000;
+    font-size: 25px;
+}
+
+nav{
+    padding-left: 35px;
+    padding-top: 50px;
+}
+
+a{
+    margin-right: 30px;
+    background-color:#cfc9bf;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: #764000;
+}
+
+.button:hover  {
+    background-color: #e8bba4 ;
+}
+
+.button a:hover {
+    background-color:#e8bba4; 
+    ; 
+}
+
+.button:hover ~ .nav-word{
+    background-color: #e8bba4;
+}
+
+.dropdown {
+    position: relative;
+    padding-right: 10px;
+}
+
+.dropdown:hover > ul {
+    display: block;
+}
+.dropdown ul {
+    position: absolute;
+    display: none;
+    background-color: #cfc9bf; 
+     /* Change the background color to white */
+    position: inherit;
+    padding: 5px; /* Add space between each selection */
+    margin-bottom: -10px;
+
+    }
+.dropdown a{
+    text-align: center;
+}  
+.dropdown ul li {
+    display: block;
+    padding-bottom: 10px; 
+   /* Add space between the text and the edges of each selection */
+    }
+    
+.dropdown a:hover {
+        background-color: #e8bba4; 
+    }
+
+    div.JK1 img{
+        width: 250px;
+        object-fit: cover;
+        padding-bottom: 50px;
+        padding-top: 40px;
+        padding-left: 60px;
+        padding-right: 50px;
+        border-radius: 25px;
+        overflow: hidden;
+    }
+    
+div.image img {
+        display: grid;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 50px;
+        width:400px;
+        height:450px ;
+        float: left;
+}
+
+.text h3{
+    text-align: center;
+        padding-top: 120px;
+}
+.text p{
+        text-align: left;
+        padding-top: 40px;
+        
+        
+    }
+div.image1 img{
+    width: 85%;
+    height: 100%;
+    object-fit: cover;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 95px;
+    padding-right: 50px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+div.image2 img {
+    display: grid;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    width:360px;
+    height:460px ;
+    float: left;
+}
+
+.text h4{
+    text-align: center;
+        padding-top: 120px;
+        font-size: 45px;
+     
+          
+}
+.text p{
+        text-align: left;
+        padding-top: 5px;
+        font-size: 20px;
+     color: #853918;
+        font-family: "Monsterrat", sans-serif;
+      
+        
+}
+/* DIV BOX Color End */
+
+
+
+  
+  
+  
